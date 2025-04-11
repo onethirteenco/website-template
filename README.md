@@ -1,5 +1,7 @@
 # Website Template by One Thirteen
 
+![Website Template Preview](repo/mainImage.jpg)
+
 A free, open-source, ready-to-use, website template built using HTML and CSS. [One Thirteen's website](https://onethirteen.co) was built using this template.
 
 ## Overview
