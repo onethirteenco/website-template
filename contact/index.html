@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Company Name</title>
+    <script src="/src/scripts/loadComponents.js"></script>
+    <link rel="stylesheet" href="../src/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-placeholder"></div>
+        <div class="main-content">
+            <section class="apps-section">
+                <div class="section-content">
+                    <h1 class="section-title">Get in Touch</h1>
+                    <p class="section-subtitle">Have a question, suggestion, or just want to say hello? We'd love to hear from you. Fill out the form below or reach out to us directly.</p>
+
+                    <div class="contact-grid">
+                        <div class="company-profile">
+                            <div class="company-avatar">
+                                <img src="/img/icons/placeholder-image.jpg" alt="Company Logo">
+                            </div>
+                            <h3 class="company-name">Company Name</h3>
+                            <p class="company-tagline">Tagline</p>
+                            
+                            <div class="company-stats">
+                                <div class="stat-item">
+                                    <div class="stat-value">30,000</div>
+                                    <div class="stat-label">Something</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value">2K+</div>
+                                    <div class="stat-label">Something</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value">4.8</div>
+                                    <div class="stat-label">Something</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-details">
+                                <div class="contact-method">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>your@email.address</span>
+                                </div>
+                                <div class="contact-method">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location, Country</span>
+                                </div>
+                                <div class="contact-method">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Status</span>
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <form id="contactForm" action="#" method="POST">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required minlength="2">
+                                    <div class="error-message" id="nameError"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="error-message" id="emailError"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required minlength="3">
+                                    <div class="error-message" id="subjectError"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required minlength="10"></textarea>
+                                    <div class="error-message" id="messageError"></div>
+                                </div>
+                                <button type="submit" class="submit-button" id="submitButton">
+                                    <span class="button-text">Send Message</span>
+                                    <span class="loading-spinner" style="display: none;">
+                                        <i class="fas fa-spinner fa-spin"></i>
+                                    </span>
+                                </button>
+                                <div class="form-message" id="formMessage"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="footer-placeholder"></div>
+    <script src="../src/scripts/common.js"></script>
+</body>
+</html> 
